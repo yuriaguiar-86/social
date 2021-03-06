@@ -1,13 +1,123 @@
+@import url('https://fonts.googleapis.com/css2? family = Spartan: wght @ 400; 500; 700 & display = swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+/*Header*/
+.main{
+    padding: 20px 100px;
+}
+
+section{
+    color: hsl(300, 43%, 22%);
+    float: left;
+    width: 450px;
+    height: 280px;
+}
+section h1{
+    font-weight: 700px;
+    font-size: 3.5rem;
+}
+section h1 span{
+    font-size: 3rem;
+}
+section p{
+    padding-top: 20px;
+    padding-bottom: 80px;
+    color: hsl(303, 10%, 53%);
+}
+
+.stars{
+    margin-top: 20px;
+    float: right;
+    width: 50%;
+    height: 240px;
+}
+.star-1, .star-2, .star-3{
+    background-color: hsl(300, 24%, 96%);
+    margin: 20px;
+    color: hsl(300, 43%, 22%);
+    display: flex;
+    width: 430px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.star-1 img, .star-2 img, .star-3 img{
+    padding-right: 10px;
+}
+.star-2{
+    margin-left: 70px;
+}
+.star-3{
+    margin-left: 140px;
+}
+
+.boxer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxer h1{
+    font-weight: 700px;
+    font-size: 1rem; 
+}
+.boxer h2{
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+    font-size: 1rem;
+}
+.box-1, .box-2, .box-3{
+    color: hsl(0, 0%, 100%);
+    padding: 25px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 15px;
+}
+.box-1 img, .box-2 img, .box-3 img{
+    border-radius: 50%;
+    float: left;
+    height: 50px;
+    width: auto;
+    margin-right: 30px;
+}
+.box-1{
+    margin-right: 50px;
+}
+.box-1 h1, h2, .box-2 h1, h2, .box-3 h1, h2{
+    padding: 3px;
+}
+.box-1 p, .box-2 p, .box-3 p{
+    padding-bottom: 15px;
+}
+.box-2{
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.box-3{
+    margin-top: 100px;
+}
+h2{
+    padding-bottom: 35px;
+}
+
+/*Footer*/
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
-
 .attribution a {
     color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+.attribution a:hover{
+    color: black;
 }
